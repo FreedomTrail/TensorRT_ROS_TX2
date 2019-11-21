@@ -10,8 +10,6 @@ $ pip3 install numpy pycuda --user
 - ssd_mobilenet_v1_coco
 - ssd_mobilenet_v2_coco                #On Jetson TX2:Inference time:18ms. 
 
-We will keep adding new model into our supported list.
-
 ## Update graphsurgeon converter
 Edit /usr/lib/python3.6/dist-packages/graphsurgeon/node_manipulation.py
 ```
@@ -48,7 +46,7 @@ $ python3 main.py [image]
 
 Notice:
 It takes some time to compile a TensorRT model when the first launching.
-After that, TensorRT engine can be created directly with the serialized .bin file
+After that, TensorRT engine can be created directly with the serialized .plan file
 To get more memory, it's recommended to turn-off X-server.
 
 More information,Please go to https://github.com/AastaNV/TRT_object_detection, It implement on Jetson Nano.

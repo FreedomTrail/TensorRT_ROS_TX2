@@ -1,7 +1,7 @@
 import graphsurgeon as gs
 
 path = 'model/ssd_inception_v2_coco_2017_11_17/frozen_inference_graph.pb'
-TRTbin = 'TRT_ssd_inception_v2_coco_2017_11_17.bin'
+TRTbin = 'TRT_ssd_inception_v2_coco_2017_11_17.plan'
 output_name = ['NMS']
 dims = [3,300,300]
 layout = 7

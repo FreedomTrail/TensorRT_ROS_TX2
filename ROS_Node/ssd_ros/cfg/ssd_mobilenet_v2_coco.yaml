@@ -1,0 +1,4 @@
+label_filename: /home/nvidia/catkin_ws/src/ssd_ros/data/ssd_coco_labels.txt
+plan_filename: /home/nvidia/catkin_ws/src/ssd_ros/data/TRT_ssd_mobilenet_v2_coco_2018_03_29_v2.plan
+num_classes: 91
+visualize_threshold: 0.5

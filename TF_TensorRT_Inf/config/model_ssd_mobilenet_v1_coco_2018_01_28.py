@@ -1,7 +1,7 @@
 import graphsurgeon as gs
 
 path = 'model/ssd_mobilenet_v1_coco_2018_01_28/frozen_inference_graph.pb'
-TRTbin = 'TRT_ssd_mobilenet_v1_coco_2018_01_28.bin'
+TRTbin = 'TRT_ssd_mobilenet_v1_coco_2018_01_28.plan'
 output_name = ['Postprocessor']
 dims = [3,300,300]
 layout = 7

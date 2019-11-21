@@ -1,7 +1,7 @@
 import graphsurgeon as gs
 
 path = 'model/ssd_mobilenet_v2_coco_2018_03_29/frozen_inference_graph.pb'
-TRTbin = 'TRT_ssd_mobilenet_v2_coco_2018_03_29.bin'
+TRTbin = 'TRT_ssd_mobilenet_v2_coco_2018_03_29.plan'
 output_name = ['NMS']
 dims = [3,300,300]
 layout = 7
